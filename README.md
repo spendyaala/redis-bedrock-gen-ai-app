@@ -150,16 +150,47 @@ Now you are ready to run each cell or all cells within the Jupyter Notebook and 
 
 Happy playing around.
 
+## Front end UI - Streamlit Webapp
+
+In the Terminal window you opened within `SageMaker Studio`, run the following commands:
+```bash
+cd redis-bedrock-gen-ai-app
+```
+
+Enable python virtual environment.
+```bash
+python3 -m venv redis-aws-bedrock.venv
+source redis-aws-bedrock.venv/bin/activate
+```
+Install python libraries needed.
+```bash
+python3 -m pip install boto3
+python3 -m pip install ./bedrock-python-sdk/boto3-1.26.162-py3-none-any.whl
+python3 -m pip install ./bedrock-python-sdk/botocore-1.29.162-py3-none-any.whl
+python3 -m pip install streamlit
+```
+
+Now you are ready to run the web app using `Streamlit`.
+```bash
+streamlit run genai_streamlit_app.py
+```
+The output may look like this:
+```bash
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
 
 
+  You can now view your Streamlit app in your browser.
 
+  Network URL: http://169.255.255.2:8501
+  External URL: http://54.203.17.143:8501
+```
 
-
-
-
-
-
-
-
-
-
+The URLs presented above may not work, as you are running this from within `Amazon SageMaker` studio.
+Instead point your browser to this URL:
+```
+https://<REPLACE_THIS_WITH_AWS_SAGEMAKER_DOMAIN_ID>.studio.<REPLACE_THIS_WITH_AWS_REGION>.sagemaker.aws/jupyter/default/proxy/<REPLACE_WITH_STREAMLIT_APPPORT>
+```
+For example,
+```
+https://d-1oslnj0ppeyz.studio.us-west-2.sagemaker.aws/jupyter/default/proxy/8501
+```
