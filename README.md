@@ -188,9 +188,14 @@ Collecting usage statistics. To deactivate, set browser.gatherUsageStats to Fals
 The URLs presented above may not work, as you are running this from within `Amazon SageMaker` studio.
 Instead point your browser to this URL:
 ```
-https://<REPLACE_THIS_WITH_AWS_SAGEMAKER_DOMAIN_ID>.studio.<REPLACE_THIS_WITH_AWS_REGION>.sagemaker.aws/jupyter/default/proxy/<REPLACE_WITH_STREAMLIT_APPPORT>
+https://<REPLACE_THIS_WITH_AWS_SAGEMAKER_DOMAIN_ID>.studio.<REPLACE_THIS_WITH_AWS_REGION>.sagemaker.aws/jupyter/default/proxy/<REPLACE_WITH_STREAMLIT_APPPORT>/
 ```
 For example,
 ```
-https://d-1oslnj0ppeyz.studio.us-west-2.sagemaker.aws/jupyter/default/proxy/8501
+https://d-1oslnj0ppeyz.studio.us-west-2.sagemaker.aws/jupyter/default/proxy/8501/
 ```
+Here is how the Front End App Web UI looks like:
+<img width="1920" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/14b1da46-bd2e-46b8-bbb0-396bc1fcee0d">
+
+
+
