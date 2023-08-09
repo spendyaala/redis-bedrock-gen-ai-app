@@ -1,6 +1,7 @@
-# redis-bedrock-gen-ai-app
-This app will showcase Redis as a Vector database on AWS Bedrock platform.
-
+-----
+# Generative AI for Healthcare & Financial Services Verticals
+This application demonstrates the power of AWS Bedrock used as a fully managed API service for Foundation Models and Redis Enterprise Cloud as a Vector Database, for Generative AI use cases applicable in Healthcare and Financial services industries.
+-----
 # About Redis Enterprise Cloud
 TBD
 
@@ -10,7 +11,7 @@ TBD
 # About this app
 
 ## Generative AI for Healthcare Industry
-Generative AI can be applied for a wide variety of usecases in Healthcare vertical. It can be used in developing applications that improve patient care, streamline workflows, and support medical research.
+Generative AI can be applied for a wide variety of use cases in Healthcare vertical. It can be used in developing applications that improve patient care, streamline workflows, and support medical research.
 For example :
   - Text generation in the healthcare industry can be used for a variety of applications to improve patient care, streamline workflows, and support medical research. Here's an example of how text generation can be applied in the healthcare industry: Radiologists often spend a significant amount of time manually creating reports for various imaging studies, such as X-rays, CT scans, and MRIs. This process can be time-consuming and may lead to delays in communicating critical findings to other healthcare providers and patients.
   - Using Natural Language Processing (NLP) and text generation techniques, a generative AI model can be trained on a large dataset of anonymized radiology reports. The model learns the structure, medical terminology, and context-specific language used in radiology reports. Once trained, the generative AI model can automatically analyze medical imaging data and generate detailed and accurate radiology reports. This saves radiologists' time, allowing them to focus on more complex cases and patient interactions.
