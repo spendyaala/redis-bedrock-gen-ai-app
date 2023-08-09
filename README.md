@@ -18,7 +18,10 @@ For more information [visit here](https://aws.amazon.com/bedrock/).
 -----
 # About this application
 
-This application demonstrates how generative ai could be applied for Healthcare and Financial Services industry.
+This application demonstrates how generative ai could be applied for
+- Healthcare and
+- Financial Services
+industries.
 
 ------
 # Generative AI for Healthcare Industry
@@ -73,6 +76,7 @@ Following are the pre-requisites for running this application.
 * AWS Bedrock API service accessibility
 * AWS SageMaker, SageMaker studio with Python 3 (Data Science 2.0) kernel.
 * Redis Enterprise Cloud
+* Streamlit libraries to run Frontend Web UI app.
 
 
 # Setup
