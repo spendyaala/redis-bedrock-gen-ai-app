@@ -95,3 +95,38 @@ This application requires a Redis Enterprise Cloud subscription with following c
 - Optional : Active Active
 
 ## AWS SageMaker Studio
+
+### Domain Setup
+Start by creating a `domain` in the `Amazon SageMaker Studio`. 
+<img width="1920" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/ae7dc245-ca2b-4b81-a322-6c7b364a1c9f">
+
+Use `Quick Setup (1min)` option. Give it a name, in this case : `aws-redis`. Leave the rest of the fields (like `User profile name`, `execution role` etc) with default values.
+<img width="990" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/27f7ddff-dd4b-480c-a60e-647fbc993f2b">
+
+You will see a message like this while your domain is being prepared.
+<img width="991" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/7c08e840-dd78-49bc-9977-1417a1faeebf">
+
+Once the domain is ready, you will see a message like this:
+<img width="991" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/acd2b6e5-1f5f-407e-98bf-5933b1bb2045">
+
+Go ahead and launch your `Amazon SageMaker Studio` from eiether of the places shown below:
+
+- By clicking on `Launch` button on the `Domain` page:
+  <img width="991" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/c50cdb0d-f499-4542-8afa-2f07c356ef8a">
+
+- Or by clicking on the `Open Studio` button on the `SageMaker` ==> `Studio` page:
+  <img width="991" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/1eafbe3e-d999-4a26-9483-43e1999c01b9">
+
+The above setup may take anywhere between 5 to 10 mins.
+
+
+
+
+
+
+
+
+
+
+
+
