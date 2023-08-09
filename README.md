@@ -93,3 +93,5 @@ This application requires a Redis Enterprise Cloud subscription with following c
 - Optional : HA
 - Optional : Replication
 - Optional : Active Active
+
+## AWS SageMaker Studio
