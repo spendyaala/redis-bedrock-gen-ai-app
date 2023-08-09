@@ -119,6 +119,36 @@ Go ahead and launch your `Amazon SageMaker Studio` from eiether of the places sh
 
 The above setup may take anywhere between 5 to 10 mins.
 
+## Launcher
+
+Start by clicking on the `Open Launcher`. This will open a `Launcher` tab, as shown below. Click on `Change Environment` to configure your SageMaker runtime environment.
+<img width="1920" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/8688846e-4bcc-49c9-8056-7ef46dd5c8da">
+
+Click on `System terminal` to launch a terminal window.
+
+## Amazon SageMaker Notebook
+
+Go ahead and clone this repo, in to the SageMaker terminal window you launch in the previous step.
+
+```
+git clone https://github.com/spendyaala/redis-bedrock-gen-ai-app.git
+```
+OR 
+
+```
+gh repo clone spendyaala/redis-bedrock-gen-ai-app
+```
+Once git repo is cloned, go ahead and navigate to the Amazon SageMaker Studio Jupyter Python notebook in the `File Browser` on Left Hand Navigation bar, as shown below. Click on the `healthcare-redis-bedrock-gen-ai.ipynb`. This will start the notebook kernel. 
+
+Make sure your kernel environment is set to:  `Data Science 2.0` and `Python 3` runtime environment.
+<img width="750" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/656b4edb-4a05-4f2b-8d38-7367eabea6aa">
+
+Now you are ready to run each cell or all cells within the Jupyter Notebook and see for yourself how each bedrock FM models can be inferenced for generative ai capabilities.
+
+Happy playing around.
+
+
+
 
 
 
