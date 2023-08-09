@@ -78,6 +78,18 @@ Following are the pre-requisites for running this application.
 * Redis Enterprise Cloud
 * Streamlit libraries to run Frontend Web UI app.
 
-
+-------
 # Setup
-TBD
+
+## Redis Enterprise Cloud
+
+Install and setup Redis Enterprise Cloud in AWS. Redis Enterprise Cloud is a fully managed solution and very easy to setup. Go to https://app.redislabs.com/#/login, subscribe, get an account and start configuring your subscription and databases.
+
+This application requires a Redis Enterprise Cloud subscription with following configurations:
+- Subscription type: Fixed or Flexible (Preffered)
+- Memory Size for the database: 500MB+
+- Throughput: 25000 ops/sec
+- Redis Stack
+- Optional : HA
+- Optional : Replication
+- Optional : Active Active
