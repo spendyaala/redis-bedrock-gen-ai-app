@@ -140,6 +140,9 @@ gh repo clone spendyaala/redis-bedrock-gen-ai-app
 ```
 Once git repo is cloned, go ahead and navigate to the Amazon SageMaker Studio Jupyter Python notebook in the `File Browser` on Left Hand Navigation bar, as shown below. Click on the `healthcare-redis-bedrock-gen-ai.ipynb`. This will start the notebook kernel. 
 
+<img width="1920" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/45100b46-86ab-46c8-9767-b0fbfa3f4dc8">
+<img width="1920" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/11b9bdc4-40ea-49e7-be0b-f9f8dca57757">
+
 Make sure your kernel environment is set to:  `Data Science 2.0` and `Python 3` runtime environment.
 <img width="750" alt="image" src="https://github.com/spendyaala/redis-bedrock-gen-ai-app/assets/6223831/656b4edb-4a05-4f2b-8d38-7367eabea6aa">
 
